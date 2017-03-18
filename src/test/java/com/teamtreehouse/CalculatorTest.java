@@ -3,7 +3,7 @@ package com.teamtreehouse;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class CalculatorTest {
     private Calculator calc;
@@ -36,8 +36,10 @@ public class CalculatorTest {
 
     @Test
     public void divisionWorks() throws Exception {
+    	//test fail project 
+    	fail();
         int result = calc.divide(6, 2);
-
+        
         assertEquals(3, result);
     }
 
