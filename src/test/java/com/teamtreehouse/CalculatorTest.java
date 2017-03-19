@@ -36,8 +36,7 @@ public class CalculatorTest {
 
     @Test
     public void divisionWorks() throws Exception {
-    	//test fail project 
-    	fail();
+    	
         int result = calc.divide(6, 2);
         
         assertEquals(3, result);
